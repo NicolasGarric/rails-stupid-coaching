@@ -1,0 +1,12 @@
+<h1>Stupid Coaching Réponse</h1>
+
+<%# afficher la question que l'on pose dans la vue ask  %>
+<p class="fw-bold">Asked question:</p>
+<%= @question %>
+
+<%# afficher la réponse  %>
+<p class="fw-bold">Coach Response:</p>
+<%= @answer %>
+<br>
+<br>
+<%= link_to "Return to ask section", "/ask" %>
